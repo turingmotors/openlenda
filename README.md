@@ -60,10 +60,10 @@ python tools/export_onnx.py --output-name openlenda_s.onnx\
 AP and AR are evaluated on the private validation set. The results are shown below.
 | Model | size | AP50 | AR50 | Download |
 |:---:|:---:|:---:|:---:|:---:|
-| OpenLenda-nano | 416x416 | 0.941 |0.830 | [link](https://github.com/uringmotors/openlenda/releases/latest/download/openlenda_nano.pth) |
-| OpenLenda-tiny | 416x416 | 0.944 | 0.807 | [link](https://github.com/uringmotors/openlenda/releases/latest/download/openlenda_tiny.pth) |
-| OpenLenda-s | 640x640 | 0.964 | 0.946 | [link](https://github.com/uringmotors/openlenda/releases/latest/download/openlenda_s.pth) |
-| OpenLenda-x | 640x640 | 0.950 | 0.961 | [link](https://github.com/uringmotors/openlenda/releases/latest/download/openlenda_x.pth)|
+| OpenLenda-nano | 416x416 | 0.941 |0.830 | [link](https://github.com/turingmotors/openlenda/releases/latest/download/openlenda_nano.pth) |
+| OpenLenda-tiny | 416x416 | 0.944 | 0.807 | [link](https://github.com/turingmotors/openlenda/releases/latest/download/openlenda_tiny.pth) |
+| OpenLenda-s | 640x640 | 0.964 | 0.946 | [link](https://github.com/turingmotors/openlenda/releases/latest/download/openlenda_s.pth) |
+| OpenLenda-x | 640x640 | 0.950 | 0.961 | [link](https://github.com/turingmotors/openlenda/releases/latest/download/openlenda_x.pth)|
 
 # 📚Documentation
 Please see YOLOX's [README](https://github.com/Megvii-BaseDetection/YOLOX/blob/main/README.md) or [docs](docs) (almost same as YOLOX's).
