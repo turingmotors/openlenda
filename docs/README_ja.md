@@ -37,7 +37,7 @@
 
 3. 学習済みの重みをダウンロードします。
     ```bash
-    wget https://github.com/... models/
+    https://github.com/uringmotors/openlenda/releases/latest/download/openlenda_s.pth
     ```
     
 ## Demo
@@ -60,10 +60,10 @@ python tools/export_onnx.py --output-name openlenda_s.onnx\
 APやARは非公開の検証セットで評価されています。結果は以下の通りです。(score threshold: 0.45)
 | Model | size | AP50 | AR50 | Download |
 |:---:|:---:|:---:|:---:|:---:|
-| OpenLenda-nano | 416x416 | 0.941 |0.830 | |
-| OpenLenda-tiny | 416x416 | 0.944 | 0.807 | |
-| OpenLenda-s | 640x640 | 0.964 | 0.946 | |
-| OpenLenda-x | 640x640 | 0.950 | 0.961 | |
+| OpenLenda-nano | 416x416 | 0.941 |0.830 | [link](https://github.com/uringmotors/openlenda/releases/latest/download/openlenda_nano.pth) |
+| OpenLenda-tiny | 416x416 | 0.944 | 0.807 | [link](https://github.com/uringmotors/openlenda/releases/latest/download/openlenda_tiny.pth) |
+| OpenLenda-s | 640x640 | 0.964 | 0.946 | [link](https://github.com/uringmotors/openlenda/releases/latest/download/openlenda_s.pth) |
+| OpenLenda-x | 640x640 | 0.950 | 0.961 | [link](https://github.com/uringmotors/openlenda/releases/latest/download/openlenda_x.pth)|
 
 
 # 📚Documentation
