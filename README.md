@@ -37,7 +37,7 @@ For more information about the development, please visit [https://zenn.dev/turin
 
 3. Download the pretrained weights.
     ```bash
-    wget https://github.com/uringmotors/openlenda/releases/latest/download/openlenda_s.pth -P models
+    wget https://github.com/turingmotors/openlenda/releases/download/v0.1.0/openlenda_s.pth -P models
     ```
     
 ## Demo
@@ -46,7 +46,7 @@ If you don't have a GPU, please remove `--gpu` from the following commands.
 python tools/demo.py video -f exps/openlenda_s.py\
     -c models/openlenda_s.pth\
     --path assets/tokyo_day.mp4\
-    --conf 0.5 --nms 0.01 --tsize 640 ---save_result --gpu
+    --conf 0.5 --nms 0.01 --tsize 640 --save_result --gpu
 ```
 
 ## Export ONNX
