@@ -41,12 +41,12 @@ For more information about the development, please visit [https://zenn.dev/turin
     ```
     
 ## Demo
-If you don't have a GPU, please remove `--gpu` from the following commands.
+If you don't have a GPU, please remove `--device gpu` from the following commands.
 ```bash
 python tools/demo.py video -f exps/openlenda_s.py\
     -c models/openlenda_s.pth\
     --path assets/tokyo_day.mp4\
-    --conf 0.5 --nms 0.01 --tsize 640 --save_result --gpu
+    --conf 0.5 --nms 0.01 --tsize 640 --save_result --device gpu
 ```
 
 ## Export ONNX
